@@ -1,0 +1,26 @@
+.title , .iconte{
+    color: #2C3E50;
+}
+
+.iconte{
+    /* padding: 20px; */
+    position: relative;
+}
+.iconte::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color:#2C3E50;
+    position: absolute;
+    top: 58%;
+    left:39%;
+}
+.iconte::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color:#2C3E50;
+    position: absolute;
+    top: 58%;
+    right: 39%;
+}

@@ -1,0 +1,28 @@
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: #1ABC9C;
+}
+i{
+    font-size: 20px;
+}
+.icone{padding: 20px;
+    position: relative;}
+.icone::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 58%;
+    left: 80%;
+}
+.icone::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 58%;
+    right: 80%;
+}

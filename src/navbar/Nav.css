@@ -1,0 +1,13 @@
+nav{
+    background-color: #2C3E50;
+    
+}
+.navs{
+    /* width: 50%; */
+    position: absolute;
+    left: 65%;
+   /* background-color: blue; */
+}
+li{
+    padding-left: 20px;
+}
